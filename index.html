@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <title>Clothing Store</title>					    
+    <title>Clothing Store</title>
     <style>
         *{
             box-sizing: border-box;
@@ -367,13 +367,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-md-auto">
                     <li class="nav-item active">
-                        <a class="nav-link nav-home" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link nav-home" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-menus" href="#">Categories</a>
+                        <a class="nav-link nav-menus" href="#categories">Categories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-menus" href="#">Products</a>
+                        <a class="nav-link nav-menus" href="#products">Products</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-menus" href="#">Sign Up</a>
@@ -390,17 +390,17 @@
         <!-- End Nav -->
 
         <!-- Start Page 1 -->
-        <div class="page page-1 w-100 d-flex justify-content-between">
+        <div id="home" class="page page-1 w-100 d-flex justify-content-between">
             <div class="text d-flex justify-content-center flex-column">
                 <h3>
-                    It's Your World Ride It
+                    It's Your World fashion
                 </h3>
                 <p>
-                    There is no day without cycling
+                    There is no day without style
                 </p>
-                <div class="order d-flex align-items-center justify-content-center">
+                <a href="detail.html" style="text-decoration: none;color: black;" class="order d-flex align-items-center justify-content-center">
                     Order Your Clothes
-                </div>
+                </a>
             </div>
             <div class="images">
                 <img class="w-100" src="./assets/images/image1.png" alt="" srcset="">
@@ -409,7 +409,7 @@
         <!-- End Page 1 -->
 
         <!-- Start Page 2 -->
-        <div class="page page-2">
+        <div id="categories" class="page page-2">
             <p class="title">
                 Trend Categories
             </p>
@@ -433,7 +433,7 @@
         <!-- End Page 2 -->
 
         <!-- Start Page 3 -->
-        <div class="page page-3">
+        <div id="products" class="page page-3">
             <p class="title">
                 Popular Products
             </p>
